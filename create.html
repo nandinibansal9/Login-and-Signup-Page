@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>New Account</title>
+
+<!--javascript-->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+</head>
+<body>
+
+<div class="container-fluid">
+   <div class="row mt-5">
+                <div class="col-md-4 offset-md-4">
+                    <div class="card mt-3">
+                   <div class="card-header">
+	                    <h2>SignUp</h2>
+	                </div>
+                        <div class="card-body px-5">
+                            <form action="pulkit1" method="post">
+                                <div class="form-group">
+                                    <label for="username">Username </label>
+                                    <input name="username"type="text" class="form-control" id="username" placeholder="Enter useranme">
+                                </div>
+
+                                <div class="form-group">
+                                    <label for="email">Email</label>
+                                    <input name="email"type="email" class="form-control" id="email" placeholder="Enter email">
+                                </div>
+
+                                <div class="form-group">
+                                    <label for="password">Password</label>
+                                    <input type="password"name="password" class="form-control" id="password" placeholder="Enter password">
+                                </div>
+                                
+                                <div class="form-group">
+                                    Male <input type="radio"name="gender" value="male" class="form-control" id="male">
+                                    Female <input type="radio"name="gender" value="female" class="form-control" id="female">
+                                </div>
+
+                                <div class="form-group">
+                                    <label for="age">Age</label>
+                                    <input type="number"name="age" class="form-control" id="age" placeholder="Enter age">
+                                </div>
+
+                                <div class="form-group">
+                                    <label for="occupation">Occupation</label>
+                                    <input type="text"name="occupation" class="form-control"placeholder="Enter occupation">
+                                </div>
+                                
+                                <div class="form-group">
+                                    <label for="salary">Salary</label>
+                                    <input type="number"name="salary" class="form-control"placeholder="Enter salary">
+                                </div>
+
+
+                                <div class="container text-center">
+                                    <button class="btn btn-success" type="submit" Value="Check" name="click">Submit</button>
+                                </div>
+                            </form>
+                       </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+</body>
+</html>
